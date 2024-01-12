@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+  <title>Les archives interactives</title>
+  <link rel="icon" type="image/png" href="assets/img/archiver.png"/>
+  <link rel="stylesheet" href="assets/css/normalize.css" />
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Sono:wght@500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css" integrity="sha256-kLaT2GOSpHechhsozzB+flnD+zUyjE2LlfWPgU04xyI=" crossorigin=""/>
+  <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js" integrity="sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM=" crossorigin=""></script>
+  <script type="importmap">
+			{
+				"imports": {
+					"three": "https://cdn.jsdelivr.net/npm/three@0.160/build/three.module.js",
+					"GLTFLoader": "https://cdn.jsdelivr.net/npm/three@0.160/examples/jsm/loaders/GLTFLoader.js",
+          "OrbitControls": "https://cdn.jsdelivr.net/npm/three@0.160/examples/jsm/controls/OrbitControls.js"
+				}
+			}
+		</script>
+</head>
+<header>
+<a href="index.html"><h1>Les archives interactives</h1></a>
+<!--
+    <nav class="langues">
+      <a href="map">FR</a>
+      <a href="map">ANG</a>
+    </nav>
+    -->
+      <!--
+    <nav class="son">
+          <img src="assets/img/volume.png" alt="volume" class="volume">
+          <img src="assets/img/mute.png" alt="mute" class="mute">
+          <audio src="assets/audio/orgue.wav" id="audio"></audio>
+    </nav>
+        -->
+    <!--<h2>ou la route de la soie des archives ?</h2>-->
+    <!--<h2>Barre d'outils</h2>-->
+    <nav class="barreOutils">
+      <a href="prosopographie.html"><img src="assets/img/people.png" alt="people icon" class="peopleIcon">Personnes</a>
+      <a href="map.html"><img src="assets/img/maps.png" alt="map icon" class="mapIcon">Carte</a>
+      <a href="archives.html"><img src="assets/img/archiver.png" alt="archive icon" class="archiveIcon">Archives</a>
+      <a href="data.html"><img src="assets/img/file.png" alt="data icon" class="dataIcon">Data</a>
+      <!--<a href="bdd.html"><img src="assets/img/bdd.png" alt="bdd icon" class="bddIcon">base de donnée</a>-->
+    </nav>
+</header>
+<body>
+<main>
+  <h2>Carte</h2>
+  <nav class="annees">
+    <a href="#" id="1944">1944</a>
+    <a href="#" id="1945">1945</a>
+    <a href="#" id="1946">1946</a>
+    <a href="#" id="1950">1950</a>
+    <a href="#" id="1956">1956</a>
+  </nav>
+  <div id="map"></div>
+  <nav>
+      <a href="écoles">écoles</a>
+      <a href="ccf">centres culturels</a>
+      <a href="ambassades">ambassades</a>
+  </nav>
+  <section id="personnalites">
+  </section>
+</main>
+<footer>
+  <h3>Fait par Claire Assadi</h3>
+  <a href="attributions.html">attributions</a>
+</footer>
+  
+  <!--<script type="module" src="assets/js/main.js"></script>-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery-csv/0.8.3/jquery.csv.min.js'></script>
+  <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+  <script src="assets/js/map.js"></script>
+</body>
+</html>

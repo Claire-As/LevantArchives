@@ -1,0 +1,157 @@
+[
+  {
+    "nom": "Stanislas Ostrorog",
+    "fonction": "Plénipotentiaire français itinérant",
+    "sert": "France",
+    "nationalité": "null",
+    "date_fonction": null
+  },
+  {
+    "nom": "Edward Grigg",
+    "position": "Nouveau ministre résidant au Caire",
+    "sert": "Angleterre",
+    "nationalité": null,
+    "date_fonction": null
+  },
+  {
+    "nom": "Noury Saïd",
+    "position": "Nouveau ministre résidant au Caire",
+    "sert": "Angleterre",
+    "nationalité": null,
+    "date_fonction": null
+  },
+  {
+    "nom": "Maher pacha",
+    "position": "Nouveau Premier ministre d'Égypte",
+    "sert": "Égypte",
+    "nationalité": null,
+    "date_fonction": null
+  },
+  {
+    "nom": "Oliva Roget",
+    "fonction": "Délégué général en Syrie",
+    "sert": "Syrie",
+    "nationalité": "français",
+    "date_fonction": null
+  },
+  {
+    "nom": "Djémil Mardam bey",
+    "position": "Président du Conseil syrien",
+    "sert": "Syrie",
+    "nationalité": null,
+    "date_fonction": null
+  },
+  {
+    "nom": "Charles Huntziger",
+    "position": "Personnage arrogant et condescendant",
+    "sert": "France",
+    "nationalité": "français",
+    "date_fonction": null
+  },
+  {
+    "nom": "G. Bonnet",
+    "position": null,
+    "sert": "France",
+    "nationalité": null,
+    "date_fonction": null
+  },
+  {
+    "nom": "Général Catroux",
+    "position": "Ambassadeur à Moscou",
+    "sert": "France",
+    "nationalité": null,
+    "date_fonction": null
+  },
+  {
+    "nom": "W. Mankey",
+    "fonction": "Principal collaborateur de Eden et responsable du Middle Est au Foreign Office",
+    "sert": "Angleterre",
+    "nationalité": null,
+    "date_fonction": null
+  },
+  {
+    "nom": "Gabriel Bounoure",
+    "fonction": "Inspecteur général des Œuvres françaises",
+    "sert": "France",
+    "nationalité": "français",
+    "date_fonction": null
+  },
+  {
+    "nom": "Jean Gaulmier",
+    "fonction": "conseiller pour l'instruction publique",
+    "sert": "France",
+    "nationalité": "français",
+    "date_fonction": null
+  },
+  {
+    "nom": "Maxime Rodinson",
+    "fonction": "Directeur des Antiquités et de l'Archéologie",
+    "sert": "France",
+    "nationalité": "français",
+    "date_fonction": null
+  },
+  {
+      "nom": "Jean Lecerp",
+      "fonction": "Arabisant, commandant d'artillerie",
+      "sert": "France",
+      "nationalité": "français",
+      "date_fonction": null
+  },
+  {
+      "nom": "Emile Gaignebert",
+      "fonction": "Directeur des Enseignements techniques au Levant",
+      "sert": "France",
+      "nationalité": "français",
+      "date_fonction": null
+  },
+  {
+      "nom": "Paul Lepissier",
+      "fonction": "Diplomate et président de la Ligue des droits de l'homme",
+      "sert": "France",
+      "nationalité": "français",
+      "date_fonction": null
+  },
+  {
+      "nom": "Thébault",
+      "fonction": "Ingénieur des chemins de fer",
+      "sert": "France",
+      "nationalité": "français",
+      "date_fonction": null
+  },
+  {
+    "nom": "Edward Spears",
+    "fonction": "Ministre plénipotentiaire en Syrie et au Liban",
+    "sert": "Angleterre",
+    "nationalité": "anglais",
+    "date_fonction": "1942 à 1944"
+  },
+  {
+    "nom": "Choukri al-Kouatli",
+    "fonction": "Président de Syrie",
+    "sert": "Syrie",
+    "nationalité": "syrien",
+    "date_fonction": "1943 à 1949",
+    "partis": "Bloc national (nationaliste syrien)"
+  },
+  {
+    "nom": "Saadallah Jabri",
+    "fonction": "Président de la Chambre",
+    "sert": "Syrie",
+    "nationalité": null,
+    "date_fonction": null
+  },
+  {
+    "nom": "Ibrahim Hanano",
+    "fonction": "fondateur du parti indépendantiste Bloc national qui s'est opposé à la France",
+    "sert": "Syrie",
+    "nationalité": "syrien",
+    "date_fonction": null
+  },
+  {
+    "nom": "Colonel Abdulghani Kodmani",
+    "fonction": null,
+    "sert": "Syrie",
+    "nationalité": null,
+    "date_fonction": null
+  }
+]

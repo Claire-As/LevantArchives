@@ -1,0 +1,360 @@
+@import url('https://fonts.googleapis.com/css2?family=Sono:wght@500&display=swap');
+
+body{
+    font-family: 'Sono', sans-serif;
+    /*background-color: #fad0a0;*/
+    background-color: #fce4c7;
+}
+
+#container{
+    background-image: url("../img/big_desk.jpg");
+    background-repeat: no-repeat;
+    background-size: cover; /* Ajuste la taille de l'image pour remplir la div */
+    background-position: center 50px; /* Centre l'image horizontalement et verticalement */
+    margin: 0 auto;
+    height: 80vh; /* Taille de la hauteur de la fenêtre */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#infromations{
+    background-color: white;
+    z-index: 3;
+    padding: 10px;
+    margin-top: 90px;
+    border-radius: 30px;
+}
+
+span{
+    font-weight: bold;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+header{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #fce4c7;
+    padding: 10px 0;
+/*
+    background-image: url("../img/drawer2.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%; 
+    background-position: center center;
+    */
+    margin: 0 auto;
+    box-shadow: 100px 0px 50px #3a342e;
+    text-align: center;
+    z-index: 10;
+}
+
+h1{
+    text-align: center;
+    margin: 10px auto;
+    font-size: 1em;
+}
+
+h1:hover{
+    color: #c16160;
+    text-shadow: 10px 5px 5px #edebe9;
+}
+
+h2{
+    text-align: center;
+    margin: 15% auto 10px auto;
+}
+
+.son{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.son img{
+    width: 50px;
+    margin: 10px 10px;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+    justify-content: space-around;
+    
+}
+
+.barreOutils{
+    /*
+    background-color: #c1aa8e;
+    box-shadow: 5px 5px 5px #c1aa8e;
+    border-radius: 30px;
+    padding: 1%;
+    */
+    text-align: center;
+    width: 50%;
+}
+
+.barreOutils a{
+    margin: 5px 30px 0 0;
+    padding-top: 45px;
+    background-image: url("../img/folder.png");
+    background-repeat: no-repeat;
+    background-size: contain; 
+    background-position: center center;
+    height: 9vh;
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+}
+
+.barreOutils a:hover{
+    margin: 5px 30px 0 0;
+    padding-top: 40px;
+    background-image: url("../img/folder2.png");
+    background-repeat: no-repeat;
+    background-size: contain; 
+    background-position: center center;
+    height: 9vh;
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+}
+
+.mapIcon, .archiveIcon, .peopleIcon, .dataIcon{
+    width: 30px;
+    margin: 0 auto;
+}
+
+.langues{
+    float: right;
+    display: inline;
+}
+
+footer{
+    margin-left: 30px;
+    margin-top: 60px;
+    text-align: center;
+}
+
+/*************************************** MAP ************************************/
+
+#canvas{
+    width: 100%;
+}
+
+.annees{
+    margin: 0 auto 1% auto;
+    padding: 1%;
+}
+
+#map { 
+    height: 400px; 
+    width: 90%; 
+    margin: 0 auto 2% auto;
+}
+
+#personnalites{
+    font-size: 0.6em;
+}
+
+/*************************************** PROSOPOGRAPHIE ************************************/
+
+#visualization{
+    margin: 0 10% 5% 10%;
+}
+
+.country{
+    margin-bottom: 20px;
+}
+
+.country img{
+    width: 100px;
+}
+
+.country h3 {
+    margin: 50px auto 10px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.country img{
+    width: 40px;
+    margin: 0 10px 0 0;
+}
+
+.character {
+    margin-bottom: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.character span{
+    padding-top: 10px;
+}
+
+.character img{
+    width: 35px;
+    margin-right: 5px;
+}
+
+/*************************************** ARCHIVES ************************************/
+
+.infos_archives{
+    margin-top: 15%;
+    text-align: center;
+}
+
+.infos_archives h2{
+    color: #c16160;
+}
+
+.infos_archives p, #listPages{
+    font-size: 1em;
+    font-weight: bold;
+}
+
+#listPages{
+    cursor: pointer;
+    color: #80450b;
+}
+
+#listPages:hover{
+    text-shadow: 1px 1px 2px rgb(113, 173, 212);
+}
+
+#dateList div{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#dateList div p{
+    color: rgb(113, 173, 212);
+    cursor: pointer;
+}
+
+#dateList div p:hover{
+    text-shadow: 1px 1px 2px #80450b;
+}
+
+.image_bureau {
+    background-image: url("../img/desk.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center; 
+    margin: 0 auto;
+    /*height: 200vh;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bureau_archives{
+    justify-content: center;
+	border-radius: 20px;
+    text-align: center;
+    width: 100%;
+}
+
+#image_navigation, #caracteristiques{
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+    text-align: center;
+}
+
+#fleche_droite img{
+    margin-right: 500px;
+}
+
+#fleche_gauche img{
+    margin-left: 500px;
+}
+
+#fleche_haute img, #fleche_basse img, #fleche_gauche img, #fleche_droite img{
+	width: 50px;
+}
+/*
+#image_illustration{
+	width: 30%;
+}
+
+#image_navigation img{
+	width: 40%;
+}
+*/
+#image_illustration img{
+	width: 500px;
+}
+
+#date_fascicule{
+    padding: 5px;
+    margin: 10px auto;
+    color: #3a342e;
+    background-color: white;
+    width: 150px;
+    border-radius: 30px;
+}
+
+#numero_page{
+    padding: 5px;
+    margin: 0 auto 10px auto;
+    color: #3a342e;
+    background-color: white;
+    width: 100px;
+    border-radius: 30px;
+}
+
+/*********************** DATA ***********************/
+
+.galerie{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.galerie img{
+    width: 25%;
+}
+
+.data{
+    margin: 0 auto;
+    text-align: center;
+}
+
+#pie-chart{
+    width: 80%;
+    margin: 0 auto;
+}
+
+#bar-chart{
+    width: 80%;
+    margin: 0 auto;
+}
+
+#data1{
+    margin: 5% auto;
+}
+
+#data2{
+    margin: 5% auto;
+}
+
+#btn_cacher, #btn_afficher{
+    background-color: #80450b;
+    color: white;
+    border-radius: 30px;
+    padding: 15px;
+    margin: 20px;
+    border: none;
+}
+
+.boutons{
+    display: flex;
+    justify-content: center;
+}
